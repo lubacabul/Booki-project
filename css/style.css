@@ -57,6 +57,7 @@ body {
     display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+    align-items: center;
     height: 100px;
 
 }
@@ -85,7 +86,6 @@ nav li:hover a {
     font-weight: 500;
     color: black;
 }
-
 
 
 /****** Hebergements And Populaires ***********/
