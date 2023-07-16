@@ -16,13 +16,13 @@ h1 {
     line-height: 25px;
 }
 
-h2 {
+p {
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
 }
 
-h3, .searchText {
+.searchText {
     font-size: 18px;
     font-weight: 700;
     line-height: 21px;
@@ -89,8 +89,6 @@ body {
 /****** HEADER ***********/
 
 .header {
-    display: flex;
-	flex-direction: row;
 	justify-content: space-between;
     align-items: center;
     height: 100px;
@@ -166,16 +164,29 @@ nav li:hover a {
 }
 .submitButtonSize {
     width: 132px ;
-    height: 49px;
+    height: 50px;
+    border-radius: 0px 15px 15px 0px;
 }
 
 .submitButton {
-    
     background-color: var(--main-color);
     color: white;
-
+    border: 2px solid var(--main-color);
 }
 
+.infoPosition {
+    align-items: center;
+}
+
+.infoBorder {
+    width: 24px;
+    height: 24px;
+    border: solid 1px var(--main-bg-color);
+    border-radius: 100px;
+    margin-right: 10px;
+    
+    
+}
 
 /****** Hebergements And Populaires ***********/
 
