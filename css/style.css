@@ -10,10 +10,6 @@
     --basic-text-color: #000000;
 }
 
-h1, h2, .search-text {
-    font-family: Raleway;
-}
-
 h1 {
     font-weight: 700;
     font-size: 22px;
@@ -24,6 +20,14 @@ h2 {
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
+}
+
+h3, .search-text {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: center;
+    
 }
 
 .fa-solid {
@@ -116,49 +120,55 @@ nav li:hover a {
     display: flex;
     flex-direction: row; 
     margin-top: 25px;
+    margin-bottom: 25px;
 }
 
-form {
-    border: 10px;
-    border-color: black;
-}
-.search-text {
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 21px;
-    letter-spacing: 0em;
-    text-align: center;
+.fa-location-border{
+    Width : 50px;
+    border-radius : 15px, 0px, 0px, 15px;
+    Border : 1px;
+    background-color: var(--main-bg-color);
 }
 
 .fa-location-dot {
-    Width: 14px;
-    Height : 18px;
-    Top : 15px;
-    Left : 18px;
     color: var(--basic-text-color);
-    justify-content: center;
-    align-items: center;
 }
 
-.input {
-    Width: 245px;
+.search-bar {
+    Width: 195px;
     Padding : 15px, 16px, 15px, 16px;
 }
 
 .submit-button{
     width: 132px;
-    Padding: 15px 16px 15px 16px;
-    Border-radius: 0px 15px 15px 0px;
+    padding: 15px 16px 15px 16px;
+    border-radius: 0px 15px 15px 0px;
     background-color: var(--main-color);
     color :  var(--main-bg-color);
     border: 1px;
     text-align: center;
 }
 
-.fa-location-dot, input, submit-button {
-    Height : 49px;
-    Gap: 10px;
+/****** Filtres ***********/
+
+.filtres {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 173px;
+    height: 50px;
+    border-radius: 25px;
+    border: 2px;
+    gap: 10px;
+}
+
 
 
 /****** Hebergements And Populaires ***********/
