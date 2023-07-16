@@ -22,7 +22,7 @@ h2 {
     line-height: 18px;
 }
 
-h3, .search-text {
+h3, .searchText {
     font-size: 18px;
     font-weight: 700;
     line-height: 21px;
@@ -32,6 +32,14 @@ h3, .search-text {
 .directionRow {
     display: flex;
     flex-direction: row;
+}
+
+.blackText{
+    color: black;
+}
+
+.borderNone {
+    border-style: none;
 }
 
 .fa-solid {
@@ -115,13 +123,13 @@ nav li:hover a {
 }
 
 /****** Trouver l'hebergement ***********/
-.searchBar {
+.searchBarSize {
     width: 377px;
     height: 49px;
     border-radius: 15px;
 }
 
-.marginSearchBar {
+.searchBarMargin {
     margin-top: 25px;
     margin-bottom: 25px;
 }
@@ -134,27 +142,34 @@ nav li:hover a {
 
 .pictoLocationBar {
     background-color: var(--main-bg-color);
-    width: 50px;
-    height: 50px;
+    width: 49px;
+    height: 49px;
+    border-radius: 15px, 0px, 0px, 15px;
 }
 
-.pictoProp {
+.fa-location-dot {
     width: 14px;
     height: 18px;
     color:black;
-    
 }
 
-.search {
-    height: 49px;
+.searchElementSize {
+    height: 47px;
     width: 195px;
 }
 
-.submitButton {
+.searchElementStyle {
+    border: solid 1px var(--main-bg-color);
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.submitButtonSize {
     width: 132px ;
     height: 49px;
-    border-radius:0px, 15px, 15px, 0px;
-    border: 1px ;
+}
+
+.submitButton {
+    
     background-color: var(--main-color);
     color: white;
 
