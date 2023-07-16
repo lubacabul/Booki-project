@@ -144,7 +144,8 @@ nav li:hover a {
     background-color: var(--main-bg-color);
     width: 49px;
     height: 49px;
-    border-radius: 15px, 0px, 0px, 15px;
+    border: 1px solid var(--main-bg-color);
+    border-radius: 15px 0px 0px 15px
 }
 
 .fa-location-dot {
@@ -154,7 +155,7 @@ nav li:hover a {
 }
 
 .searchElementSize {
-    height: 47px;
+    height: 49px;
     width: 195px;
 }
 
