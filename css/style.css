@@ -27,7 +27,11 @@ h3, .search-text {
     font-weight: 700;
     line-height: 21px;
     text-align: center;
-    
+}
+
+.directionRow {
+    display: flex;
+    flex-direction: row;
 }
 
 .fa-solid {
@@ -111,55 +115,51 @@ nav li:hover a {
 }
 
 /****** Trouver l'hebergement ***********/
+.searchBar {
+    width: 377px;
+    height: 49px;
+    border-radius: 15px;
+}
 
-.search-elements {
-    display: flex;
-    flex-direction: row; 
+.marginSearchBar {
     margin-top: 25px;
     margin-bottom: 25px;
 }
 
-.fa-location-border{
-    Width : 50px;
-    border-radius : 15px, 0px, 0px, 15px;
-    Border : solid 1px;
-    background-color: var(--main-bg-color);
-}
-
-.fa-location-dot {
-    color: var(--basic-text-color);
-}
-
-.search-bar {
-    Width: 195px;
-    Padding : 15px, 16px, 15px, 16px;
-}
-
-.submit-button{
-    width: 132px;
-    padding: 15px 16px 15px 16px;
-    border-radius: 0px 15px 15px 0px;
-    background-color: var(--main-color);
-    color :  var(--main-bg-color);
-    border: solid 1px;
-    text-align: center;
-}
-
-/****** Filtres ***********/
-
-.filtres {
+.center {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     align-items: center;
 }
 
-.buttonTextPicto {
-    display: flex;
-    flex-direction: row;
-    border :solid 2px #F2F2F2;
+.pictoLocationBar {
+    background-color: var(--main-bg-color);
+    width: 50px;
     height: 50px;
-    border-radius: 25px;
 }
+
+.pictoProp {
+    width: 14px;
+    height: 18px;
+    color:black;
+    
+}
+
+.search {
+    height: 49px;
+    width: 195px;
+}
+
+.submitButton {
+    width: 132px ;
+    height: 49px;
+    border-radius:0px, 15px, 15px, 0px;
+    border: 1px ;
+    background-color: var(--main-color);
+    color: white;
+
+}
+
 
 /****** Hebergements And Populaires ***********/
 
