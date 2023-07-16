@@ -7,6 +7,23 @@
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
     --filter-bg-color: #DEEBFF;
+    --basic-text-color: #000000;
+}
+
+h1, h2, .search-text {
+    font-family: Raleway;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25px;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
 }
 
 .fa-solid {
@@ -98,10 +115,14 @@ nav li:hover a {
 .search-elements {
     display: flex;
     flex-direction: row; 
+    margin-top: 25px;
 }
 
+form {
+    border: 10px;
+    border-color: black;
+}
 .search-text {
-    font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
     line-height: 21px;
@@ -114,32 +135,29 @@ nav li:hover a {
     Height : 18px;
     Top : 15px;
     Left : 18px;
-    color: black;
+    color: var(--basic-text-color);
+    justify-content: center;
+    align-items: center;
 }
 
-.fa-location-border {
-    border-radius: 0px, 15px, 15px, 0px;
-}
-
-.input-text {
-    Width: 132px;
-    Height : 49px;
-    border-radius : 0px, 15px, 15px, 0px;
-    Border : 1px;
+.input {
+    Width: 245px;
     Padding : 15px, 16px, 15px, 16px;
-    Gap: 10px;
 }
 
 .submit-button{
     width: 132px;
-    Height: 49px;
     Padding: 15px 16px 15px 16px;
     Border-radius: 0px 15px 15px 0px;
-    Border: 1px;
-    Gap: 10px;
     background-color: var(--main-color);
     color :  var(--main-bg-color);
+    border: 1px;
+    text-align: center;
+}
 
+.fa-location-dot, input, submit-button {
+    Height : 49px;
+    Gap: 10px;
 }
 
 
@@ -162,7 +180,6 @@ nav li:hover a {
 .hebergements {
     width: 65%;
 }
-
 
 
 /****** Populaires ***********/
