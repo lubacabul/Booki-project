@@ -22,7 +22,7 @@ p {
     line-height: 18px;
 }
 
-.searchText {
+h2, .searchText {
     font-size: 18px;
     font-weight: 700;
     line-height: 21px;
@@ -32,6 +32,10 @@ p {
 .directionRow {
     display: flex;
     flex-direction: row;
+}
+
+.alignItems {
+    align-items: center;
 }
 
 .blackText{
@@ -174,8 +178,13 @@ nav li:hover a {
     border: 2px solid var(--main-color);
 }
 
-.infoPosition {
-    align-items: center;
+/****** Filtres ***********/
+
+.filtresButtonBorder {
+    width: 173px;
+    height: 50px;
+    border: solid 2px var(--main-bg-color);
+    border-radius: 25px;
 }
 
 .infoBorder {
