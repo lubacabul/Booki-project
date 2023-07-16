@@ -203,6 +203,10 @@ nav li:hover a {
     margin: 10px;
 }
 
+.filtresButtonBorder:hover {
+    background-color: var(--filter-bg-color);
+}
+
 /****** Hebergements And Populaires ***********/
 
 .hebergements-and-populaires {
