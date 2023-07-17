@@ -310,7 +310,12 @@ nav li:hover a {
 }
 
 
+/****** Activités ***********/
 
+.activites {
+    width: 1340px;
+    height: 550px;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
