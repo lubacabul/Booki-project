@@ -10,7 +10,7 @@
     --basic-text-color: #000000;
 }
 
-h1 {
+h2 {
     font-weight: 700;
     font-size: 22px;
     line-height: 25px;
@@ -22,11 +22,10 @@ p {
     line-height: 18px;
 }
 
-h2, .searchText {
+h3, .searchText {
     font-size: 18px;
     font-weight: 700;
     line-height: 21px;
-    text-align: center;
 }
 
 .directionRow {
@@ -125,6 +124,10 @@ nav li:hover a {
 }
 
 /****** Trouver l'hebergement ***********/
+.searchSection {
+    margin-bottom: 25px;
+}
+
 .searchBarSize {
     width: 377px;
     height: 49px;
@@ -181,7 +184,7 @@ nav li:hover a {
 /****** Filtres ***********/
 
 .filtres {
-    justify-content: space-around;
+    margin-bottom: 10px;
 }
 
 .filtresButtonBorder {
@@ -189,6 +192,7 @@ nav li:hover a {
     height: 50px;
     border: solid 2px var(--main-bg-color);
     border-radius: 25px;
+    margin: 10px;
 }
 
 .infoBorder {
@@ -227,6 +231,10 @@ nav li:hover a {
     width: 65%;
 }
 
+.hebergementsCards {
+    display: flex;
+    margin-top: 33px;
+}
 
 /****** Populaires ***********/
 .populaires {
