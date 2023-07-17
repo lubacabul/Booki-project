@@ -28,6 +28,10 @@ h3, .searchText {
     line-height: 21px;
 }
 
+.searchText {
+    text-align: center;
+}
+
 .directionRow {
     display: flex;
     flex-direction: row;
@@ -132,9 +136,6 @@ nav li:hover a {
     width: 377px;
     height: 49px;
     border-radius: 15px;
-}
-
-.searchBarMargin {
     margin-top: 25px;
     margin-bottom: 25px;
 }
@@ -231,12 +232,37 @@ nav li:hover a {
     width: 65%;
 }
 
-.hebergementsCards {
+.hebergements-cards {
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     margin-top: 33px;
 }
 
+.hebergement-cards-content {
+    width: 250px;
+    height: 65px;
+    gap: 8px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 207px;
+    margin-bottom: 33px;
+}
+
+.hebergements-cards img{
+    width: 100%;
+    height: 124px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
 /****** Populaires ***********/
+
 .populaires {
     width: 32%;
 }
