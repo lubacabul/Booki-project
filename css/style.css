@@ -13,19 +13,16 @@
 h2 {
     font-weight: 700;
     font-size: 22px;
-    line-height: 25px;
 }
 
 p {
     font-weight: 400;
     font-size: 16px;
-    line-height: 18px;
 }
 
 h3, .searchText {
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
 }
 
 .searchText {
@@ -89,7 +86,7 @@ body {
     font-weight: 700;
 }
 
-.neutralStar {
+.neutral-star {
     color: var(--main-bg-color)
 }
 
@@ -180,6 +177,7 @@ nav li:hover a {
     background-color: var(--main-color);
     color: white;
     border: 2px solid var(--main-color);
+    
 }
 
 /****** Filtres ***********/
@@ -233,24 +231,25 @@ nav li:hover a {
 }
 
 .hebergements-cards {
-    display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 33px;
-}
-
-.hebergement-cards-content {
-    width: 250px;
-    height: 65px;
-    gap: 8px;
+    gap: 4px;
 }
 
 .cards {
     display: flex;
     flex-direction: column;
     width: 250px;
-    height: 207px;
+    height: auto;
     margin-bottom: 33px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-bottom: 15px;
 }
 
 .hebergements-cards img{
