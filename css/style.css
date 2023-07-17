@@ -315,6 +315,20 @@ nav li:hover a {
 .activites {
     width: 1340px;
     height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.activites-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color:gray;
+    width: 297px;
+    height: 439px;
+    border-radius: 20px;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
