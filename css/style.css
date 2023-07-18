@@ -320,12 +320,14 @@ nav li:hover a {
     justify-content: space-between;
     margin-top: 20px;
 }
-.activites img {
+.activites-card img {
     width: 100%;
     height: 200px;
+    min-height: 200px;
+    max-height: 200px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    object-fit: fill;
+    object-fit: cover;
 }
 
 .activites-card {
@@ -339,9 +341,9 @@ nav li:hover a {
     flex-direction: column;
     width: 193px;
     height: 270px;
-    margin-bottom: 10px;
     background-color:white;
     border-radius: 20px;
+    box-sizing: content-box;
     box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
 }
 
@@ -350,8 +352,16 @@ nav li:hover a {
     flex-direction: column;
     height: 70px;
     width: 100%;
-    padding: 20px 19px 20px 19px;
+    padding: 0px 19px 20px 19px;
 }
+
+.activites-card h3 {
+    width: 155px;
+    height: 19px;
+    font-size: 16px;
+    text-align: left;
+}
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
