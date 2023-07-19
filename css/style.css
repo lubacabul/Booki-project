@@ -34,6 +34,11 @@ h3, .searchText {
     flex-direction: row;
 }
 
+.directionColumn {
+    display: flex;
+    flex-direction: column;
+}
+
 .alignItems {
     align-items: center;
 }
@@ -241,8 +246,6 @@ nav li:hover a {
 }
 
 .cards {
-    display: flex;
-    flex-direction: column;
     width: 250px;
     height: auto;
     margin-bottom: 33px;
@@ -315,8 +318,6 @@ nav li:hover a {
 .activites {
     width: 924px;
     height: 370px;
-    display: flex;
-    flex-direction: column;
     justify-content: space-between;
     margin-top: 20px;
 }
@@ -337,8 +338,6 @@ nav li:hover a {
 }
 
 .activites-card article {
-    display: flex;
-    flex-direction: column;
     width: 193px;
     height: 270px;
     background-color:white;
@@ -348,8 +347,6 @@ nav li:hover a {
 }
 
 .activites-card-content {
-    display: flex;
-    flex-direction: column;
     height: 70px;
     width: 100%;
     padding: 0px 19px 20px 19px;
@@ -361,6 +358,13 @@ nav li:hover a {
     font-size: 16px;
     text-align: left;
 }
+
+/****** Activités ***********/
+
+
+width: Fill (1,340px)
+height: Hug (163px)
+
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
