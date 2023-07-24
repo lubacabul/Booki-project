@@ -457,6 +457,16 @@ nav li:hover a {
         flex-direction: column;
     }
     
+    .activites-card{
+        width: 193px;
+        height: 270px;
+}
+
+    .activites-card img{
+        width: 193px;
+        height: 200px;
+    }
+    
 
 
 /* Small devices (phones, less than 768px) */
