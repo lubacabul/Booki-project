@@ -58,6 +58,7 @@ h3, .searchText {
 body {
     display: flex;
     justify-content: center;
+    margin-bottom: 0px;
 }
 
 main{
@@ -72,7 +73,7 @@ main{
     max-width: 1440px;
     padding: 0 50px;
     box-sizing: border-box;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 .section-title {
@@ -328,14 +329,13 @@ nav li:hover a {
 /****** Activités ***********/
 
 .activites {
-    width: 1340px;
-    height: 559px;
-    margin-top: 20px;
+    width: 98%;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .activites-title {
-    width: 1280px;
-    height: 30px;
+    width: 90%;
 }
 
 .activites-card img {
@@ -346,19 +346,21 @@ nav li:hover a {
 }
 
 .activites-card {
-    justify-content: space-between;
+    width: 98%;
+    gap: 2%;
     flex-wrap: wrap;
-    width: 1280px;
-    height: 439px;
 }
 
 .activites-card article {
+    justify-content: space-between;
     width: 297px;
     height: 439px;
     background-color:white;
     border-radius: 20px;
     box-sizing: content-box;
     box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
+    margin-top: 7px;
+    margin-bottom: 7px;
 }
 
 .activites-card-content {
@@ -384,10 +386,9 @@ nav li:hover a {
 /****** Footer ***********/
 
 .footer {
-    width: 1300px;
-    height: 163px;
+    width: 90%;
     background-color: var(--main-bg-color);
-    padding: 20px;
+    padding: 30px;
 }
 
 .bloc-footer-column {
@@ -454,16 +455,11 @@ nav li:hover a {
     }
 
     .activites{
-        max-width: 924px;
-        height: 390px;
+        width: 100%;
     }
 
     .activites-card{
-        max-width: 864px;
-        max-height: 2700px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        width: 100%;
 
     }
 
@@ -484,8 +480,7 @@ nav li:hover a {
 
     
     .footer{
-        width: 884px;
-        height: 163px;
+        width: 90%;
         padding-left: 20px;
     }
 
