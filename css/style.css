@@ -39,6 +39,12 @@ h3, .searchText {
     flex-direction: column;
 }
 
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .alignItems {
     align-items: center;
 }
@@ -153,12 +159,6 @@ nav li:hover a {
     margin-bottom: 25px;
 }
 
-.center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .pictoLocationBar {
     background-color: var(--main-bg-color);
     width: 49px;
@@ -203,6 +203,7 @@ nav li:hover a {
 }
 
 .filtresButtonBorder {
+
     width: 173px;
     height: 50px;
     border: solid 2px var(--main-bg-color);
@@ -220,6 +221,12 @@ nav li:hover a {
 
 .pictoFiltresStyle {
     margin: 10px;
+}
+
+.bloc-filtres-buttons{
+    flex-wrap: wrap;
+    align-items: center;
+
 }
 
 .filtresButtonBorder:hover {
@@ -493,8 +500,40 @@ nav li:hover a {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
 
+    body {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
     .main-container{
-        
+      padding: 0px;  
+    }
+
+    .searchSection {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .filtres{
+        margin-bottom: 0px;
+        flex-direction: column;
+    }
+
+    .filtres h3 {
+        display: flex;
+        justify-content: left;
+    }
+
+    .bloc-filtres-buttons {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .hebergements-and-populaires section {
+        background-color: var(--main-bg-color);
+        border-radius: 0px;
+        padding: 0px;
     }
 
     .hebergements-and-populaires {
@@ -508,20 +547,32 @@ nav li:hover a {
     .populaires {
         width: 100%;
         margin-bottom: 15px;
+        margin-top: 35px;
+    }
+
+    .populaires-title{
+        padding-left: 5%;
+        padding-right: 5%; 
+        padding-top: 30px;
+
     }
 
     .populaires-cards {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 30px;
+
     }
 
     .populaires-cards .card {
-        width: 100%;
+        width: 90%;
     }
 
     .populaires-cards .card-title {
         font-size: 14px;
+        
     }
 
     .populaires-cards .card-subtitle {
