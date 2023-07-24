@@ -452,6 +452,10 @@ nav li:hover a {
         font-size: 13px;
     }
 
+    .bloc-activites-card {
+        display: flex;
+        flex-direction: column;
+    }
     
 
 
