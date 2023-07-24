@@ -347,6 +347,7 @@ nav li:hover a {
 
 .activites-card {
     justify-content: space-between;
+    flex-wrap: wrap;
     width: 1280px;
     height: 439px;
 }
@@ -453,13 +454,13 @@ nav li:hover a {
     }
 
     .activites{
-        width: 924px;
+        max-width: 924px;
         height: 390px;
     }
 
     .activites-card{
-        width: 864px;
-        height: 2700px;
+        max-width: 864px;
+        max-height: 2700px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -481,6 +482,17 @@ nav li:hover a {
         height: 200px;
     }
 
+    
+    .footer{
+        width: 884px;
+        height: 163px;
+        padding-left: 20px;
+    }
+
+    .bloc-footer-column {
+        width: 288px;
+        height: 163px;
+    }
 }
 
 /* Small devices (phones, less than 768px) */
