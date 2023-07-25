@@ -611,8 +611,10 @@ nav li:hover a {
 
     
     .footer{
+        display: flex;
+        flex-direction: column;
         width: 90%;
-        padding-left: 20px;
+        padding-left: 30px;
     }
 
     .bloc-footer-column {
