@@ -587,21 +587,25 @@ nav li:hover a {
 
     .activites{
         width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+        justify-content: center;
     }
 
     .activites-card{
         width: 100%;
-
+        margin-top: 15px;
     }
 
     .activites-card article {
-        width: 193px;
-        height: 270px;
+        max-width: 315px;
+        width: 90%;
     }
 
     .activites-card-content{
-        width: 193px;
-        height: 70px;
+        height: 59px;
         padding-left: 0px;
     }
 
@@ -615,6 +619,7 @@ nav li:hover a {
         flex-direction: column;
         width: 90%;
         padding-left: 30px;
+        margin-top: 15px;
     }
 
     .bloc-footer-column {
