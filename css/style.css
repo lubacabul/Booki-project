@@ -117,7 +117,6 @@ main{
 .header {
 	justify-content: space-between;
     align-items: center;
-    height: 100px;
 }
 
 .logo {
@@ -512,9 +511,54 @@ nav li:hover a {
       padding: 0px;  
     }
 
+    .header{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 0px;
+    }
+
+    .logo {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .menu {
+        box-sizing: border-box;
+        width: 100%;
+
+    }
+
+    .menu ul{
+        display: flex;
+        flex-direction: row;
+        box-sizing: border-box;
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .menu li{
+        display: flex;
+        justify-content: center;
+        box-sizing: content-box;
+        width: 100%;
+        border-bottom: var(--main-bg-color) solid 2px;
+        padding-bottom: 15px;
+        margin: 0px;
+    }
+
+    nav li:hover {
+        border-top: none;
+        border-bottom: #0065FC solid 2px;
+    }
+    
+    nav li:hover a {
+        color: var(--main-color);
+    }
+
     .searchSection {
         margin-left: 20px;
         margin-right: 20px;
+        margin-top: 30px;
     }
 
     .filtres{
