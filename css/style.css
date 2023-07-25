@@ -242,7 +242,6 @@ nav li:hover a {
 }
 
 .hebergements-and-populaires section {
-    background-color: var(--main-bg-color);
     border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
@@ -252,6 +251,8 @@ nav li:hover a {
 
 .hebergements {
     width: 65%;
+    background-color: var(--main-bg-color);
+
 }
 
 .hebergements-cards {
@@ -290,6 +291,8 @@ nav li:hover a {
 
 .populaires {
     width: 32%;
+    background-color: var(--main-bg-color);
+
 }
 
 .populaires-title {
@@ -531,7 +534,6 @@ nav li:hover a {
     }
 
     .hebergements-and-populaires section {
-        background-color: var(--main-bg-color);
         border-radius: 0px;
     }
 
@@ -540,12 +542,14 @@ nav li:hover a {
     }
 
     .hebergements {
+        background-color: white;
         width: 100%;
         padding-left: 20px;
         padding-right: 20px;
     }
 
     .populaires {
+        background-color: var(--main-bg-color);
         width: 100%;
         margin-bottom: 15px;
         margin-top: 35px;
