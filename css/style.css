@@ -533,7 +533,6 @@ nav li:hover a {
     .hebergements-and-populaires section {
         background-color: var(--main-bg-color);
         border-radius: 0px;
-        padding: 0px;
     }
 
     .hebergements-and-populaires {
@@ -542,12 +541,15 @@ nav li:hover a {
 
     .hebergements {
         width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .populaires {
         width: 100%;
         margin-bottom: 15px;
         margin-top: 35px;
+        padding: 0px;
     }
 
     .populaires-title{
@@ -560,14 +562,13 @@ nav li:hover a {
     .populaires-cards {
         display: flex;
         flex-direction: column;
-        padding-left: 5%;
-        padding-right: 5%;
         padding-bottom: 30px;
 
     }
 
     .populaires-cards .card {
         width: 90%;
+        max-width: 335px;
     }
 
     .populaires-cards .card-title {
@@ -577,6 +578,11 @@ nav li:hover a {
 
     .populaires-cards .card-subtitle {
         font-size: 13px;
+    }
+
+    .card{
+        width: 90%;
+        max-width: 335px;
     }
 
     .activites{
