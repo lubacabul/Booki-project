@@ -166,6 +166,10 @@ nav li:hover a {
     border-radius: 15px 0px 0px 15px
 }
 
+.bloc-rechercher-picto {
+    display: none;
+}
+
 .fa-location-dot {
     width: 14px;
     height: 18px;
@@ -549,10 +553,43 @@ nav li:hover a {
         color: var(--main-color);
     }
 
+    .bloc-rechercher {
+        display: none;
+    }
+
+    .bloc-rechercher-picto{
+        display: flex;
+        box-sizing: content-box;
+        border: var(--main-color) solid 1px;
+        width: 49px;
+        height: 49px;
+        border-radius: 15px 15px 15px 15px
+    }
+
+    .bloc-rechercher-picto i{
+        color: white;
+    }
+
+    .Border-loupe {
+        border-top: solid 1px;
+        border-bottom: solid 1px;
+        border-image: linear-gradient(45deg, #F2F2F2 , white) 1;        
+        height: 49px;
+    }
+
+    .searchElementStyle{
+        border-right: none;
+    }
+
     .searchSection {
         margin-left: 20px;
         margin-right: 20px;
         margin-top: 30px;
+    }
+
+    .searchElementSize {
+        height: 49px;
+        width: 195px;
     }
 
     .filtres{
