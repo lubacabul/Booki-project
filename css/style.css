@@ -25,10 +25,6 @@ h3, .text-rechercher {
     font-weight: 700;
 }
 
-.text-rechercher {
-    text-align: center;
-}
-
 .direction-row {
     display: flex;
     flex-direction: row;
@@ -151,6 +147,7 @@ nav li:hover a {
 }
 
 .barre-recherche-taille {
+    /*barre de recherche dans son ensemble picto + zone de frappe + bouton submit*/
     width: 377px;
     height: 49px;
     border-radius: 15px;
@@ -166,22 +163,24 @@ nav li:hover a {
     border-radius: 15px 0px 0px 15px
 }
 
-.bloc-loupe {
-    display: none;
-}
-
 .fa-location-dot {
     width: 14px;
     height: 18px;
     color:black;
 }
 
+.text-rechercher {
+    text-align: center;
+}
+
 .bloc-rechercher-taille {
+    /*zone de frappe de la barre de recherche*/
     height: 49px;
     width: 195px;
 }
 
 .bloc-rechercher-style {
+    /*zone de frappe de la barre de recherche*/
     border: solid 1px var(--main-bg-color);
     padding-top: 0;
     padding-bottom: 0;
@@ -198,10 +197,20 @@ nav li:hover a {
     border: 2px solid var(--main-color);
 }
 
+.bloc-loupe {
+    /*bloc pour les small devices : picto "loupe" remplaçant le mot "rechercher*/
+    display: none;
+}
+
 /****** Filtres ***********/
 
 .filtres {
     margin-bottom: 10px;
+}
+
+.bloc-filtres-boutons{
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .boutons-filtres-bordures {
@@ -212,27 +221,22 @@ nav li:hover a {
     margin: 10px;
 }
 
-.info-border {
-    width: 24px;
-    height: 24px;
-    border: solid 1px var(--main-bg-color);
-    border-radius: 100px;
-    margin-right: 10px;
-}
-
 .picto-filtres-style {
     margin: 10px;
-}
-
-.bloc-filtres-boutons{
-    flex-wrap: wrap;
-    align-items: center;
-
 }
 
 .boutons-filtres-bordures:hover {
     background-color: var(--filter-bg-color);
     cursor: default;
+}
+
+.info-border {
+    /* le "i" d'information concernant les logements*/
+    width: 24px;
+    height: 24px;
+    border: solid 1px var(--main-bg-color);
+    border-radius: 100px;
+    margin-right: 10px;
 }
 
 /****** Hebergements And Populaires ***********/
@@ -373,6 +377,7 @@ nav li:hover a {
 }
 
 .activites-card-content {
+    /*bloc de description de l'activité*/
     height: 59px;
     width: 100%;
     padding-left: 19px;
