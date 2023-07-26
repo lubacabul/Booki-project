@@ -20,21 +20,21 @@ p {
     font-size: 16px;
 }
 
-h3, .searchText {
+h3, .text-rechercher {
     font-size: 18px;
     font-weight: 700;
 }
 
-.searchText {
+.text-rechercher {
     text-align: center;
 }
 
-.directionRow {
+.direction-row {
     display: flex;
     flex-direction: row;
 }
 
-.directionColumn {
+.direction-column {
     display: flex;
     flex-direction: column;
 }
@@ -45,15 +45,15 @@ h3, .searchText {
     align-items: center;
 }
 
-.alignItems {
+.align-items {
     align-items: center;
 }
 
-.blackText{
+.couleur-noire{
     color: black;
 }
 
-.borderNone {
+.border-none {
     border-style: none;
 }
 
@@ -146,11 +146,11 @@ nav li:hover a {
 }
 
 /****** Trouver l'hebergement ***********/
-.searchSection {
+.section-rechercher {
     margin-bottom: 25px;
 }
 
-.searchBarSize {
+.barre-recherche-taille {
     width: 377px;
     height: 49px;
     border-radius: 15px;
@@ -158,7 +158,7 @@ nav li:hover a {
     margin-bottom: 25px;
 }
 
-.pictoLocationBar {
+.picto-location {
     background-color: var(--main-bg-color);
     width: 49px;
     height: 49px;
@@ -166,7 +166,7 @@ nav li:hover a {
     border-radius: 15px 0px 0px 15px
 }
 
-.bloc-rechercher-picto {
+.bloc-loupe {
     display: none;
 }
 
@@ -176,23 +176,23 @@ nav li:hover a {
     color:black;
 }
 
-.searchElementSize {
+.bloc-rechercher-taille {
     height: 49px;
     width: 195px;
 }
 
-.searchElementStyle {
+.bloc-rechercher-style {
     border: solid 1px var(--main-bg-color);
     padding-top: 0;
     padding-bottom: 0;
 }
-.submitButtonSize {
+.bouton-submit-taille {
     width: 132px ;
     height: 50px;
     border-radius: 0px 15px 15px 0px;
 }
 
-.submitButton {
+.bouton-submit {
     background-color: var(--main-color);
     color: white;
     border: 2px solid var(--main-color);
@@ -204,7 +204,7 @@ nav li:hover a {
     margin-bottom: 10px;
 }
 
-.filtresButtonBorder {
+.boutons-filtres-bordures {
     width: 173px;
     height: 50px;
     border: solid 2px var(--main-bg-color);
@@ -212,7 +212,7 @@ nav li:hover a {
     margin: 10px;
 }
 
-.infoBorder {
+.info-border {
     width: 24px;
     height: 24px;
     border: solid 1px var(--main-bg-color);
@@ -220,17 +220,17 @@ nav li:hover a {
     margin-right: 10px;
 }
 
-.pictoFiltresStyle {
+.picto-filtres-style {
     margin: 10px;
 }
 
-.bloc-filtres-buttons{
+.bloc-filtres-boutons{
     flex-wrap: wrap;
     align-items: center;
 
 }
 
-.filtresButtonBorder:hover {
+.boutons-filtres-bordures:hover {
     background-color: var(--filter-bg-color);
     cursor: default;
 }
@@ -557,7 +557,7 @@ nav li:hover a {
         display: none;
     }
 
-    .bloc-rechercher-picto{
+    .bloc-loupe{
         display: flex;
         box-sizing: content-box;
         border: var(--main-color) solid 1px;
@@ -566,7 +566,7 @@ nav li:hover a {
         border-radius: 15px 15px 15px 15px
     }
 
-    .bloc-rechercher-picto i{
+    .bloc-loupe i{
         color: white;
     }
 
@@ -577,17 +577,17 @@ nav li:hover a {
         height: 49px;
     }
 
-    .searchElementStyle{
+    .bloc-rechercher-style{
         border-right: none;
     }
 
-    .searchSection {
+    .section-rechercher {
         margin-left: 20px;
         margin-right: 20px;
         margin-top: 30px;
     }
 
-    .searchElementSize {
+    .bloc-rechercher-taille {
         height: 49px;
         width: 195px;
     }
@@ -602,7 +602,7 @@ nav li:hover a {
         justify-content: left;
     }
 
-    .bloc-filtres-buttons {
+    .bloc-filtres-boutons {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
