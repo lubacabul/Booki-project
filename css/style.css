@@ -221,11 +221,24 @@ nav li:hover a {
     margin: 10px;
 }
 
+.boutons-filtres-familial-bordures{
+    width: 134px;
+    height: 50px;
+    border: solid 2px var(--main-bg-color);
+    border-radius: 25px;
+    margin: 10px;
+}
+
 .picto-filtres-style {
     margin: 10px;
 }
 
 .boutons-filtres-bordures:hover {
+    background-color: var(--filter-bg-color);
+    cursor: default;
+}
+
+.boutons-filtres-familial-bordures:hover {
     background-color: var(--filter-bg-color);
     cursor: default;
 }
@@ -360,7 +373,7 @@ nav li:hover a {
 
 .activites-card {
     width: 98%;
-    gap: 2%;
+    gap: 30px;
     flex-wrap: wrap;
 }
 
@@ -708,5 +721,3 @@ nav li:hover a {
         height: 163px;
     }
 }
-
-    /* ... */
