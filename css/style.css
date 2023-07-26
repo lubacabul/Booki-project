@@ -415,7 +415,8 @@ nav li:hover a {
 .footer {
     width: 90%;
     background-color: var(--main-bg-color);
-    padding: 30px;
+    padding-right: 100px;
+    padding-left: 30px;
 }
 
 .bloc-footer-column {
