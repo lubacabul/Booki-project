@@ -58,8 +58,6 @@ h3, .text-rechercher {
 }
 
 body {
-    display: flex;
-    justify-content: center;
     margin-bottom: 0px;
 }
 
@@ -67,7 +65,6 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex: 1;
 }
 
 .main-container {
@@ -113,18 +110,27 @@ main{
 .header {
 	justify-content: space-between;
     align-items: center;
-}
-
-.logo {
-    display: flex;
-    width: 80px;
-    height: 30px;
+    height: 94px;
 }
 
 .menu {
    display: inline-block;
-   margin: 10px;
-   padding-top: 15px
+}
+
+.logo img{
+    height: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.menu ul{
+    height: 94px;
+    margin-top: 0px;
+}
+
+.menu li{
+    margin-left: 70px;
+    padding-top: 15px;
 }
 
 nav li:hover {
@@ -358,6 +364,7 @@ nav li:hover a {
     width: 98%;
     margin-top: 30px;
     margin-bottom: 30px;
+    padding-left: 30px;
 }
 
 .activites-title {
