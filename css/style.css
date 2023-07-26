@@ -428,7 +428,6 @@ nav li:hover a {
 
 .bloc-footer-column {
     width: 446px;
-    height: 163px;
     text-align: left;
     align-items: flex-start;
 }
@@ -518,7 +517,6 @@ nav li:hover a {
 
     .bloc-footer-column {
         width: 288px;
-        height: 163px;
     }
 }
 
@@ -537,11 +535,9 @@ nav li:hover a {
     .header{
         display: flex;
         flex-direction: column;
-        padding-bottom: 0px;
     }
 
     .logo {
-        margin-top: 30px;
         margin-bottom: 30px;
     }
 
@@ -562,10 +558,9 @@ nav li:hover a {
         display: flex;
         justify-content: center;
         box-sizing: content-box;
-        width: 100%;
         border-bottom: var(--main-bg-color) solid 2px;
-        padding-bottom: 15px;
         margin: 0px;
+        height: 40px;
     }
 
     nav li:hover {
@@ -575,6 +570,12 @@ nav li:hover a {
     
     nav li:hover a {
         color: var(--main-color);
+    }
+
+    .section-rechercher {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 120px;
     }
 
     .bloc-rechercher {
@@ -603,12 +604,6 @@ nav li:hover a {
 
     .bloc-rechercher-style{
         border-right: none;
-    }
-
-    .section-rechercher {
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-top: 30px;
     }
 
     .bloc-rechercher-taille {
@@ -656,8 +651,8 @@ nav li:hover a {
     }
 
     .populaires-title{
-        padding-left: 5%;
-        padding-right: 5%; 
+        padding-left: 17px;
+        padding-right: 17px; 
         padding-top: 30px;
     }
 
@@ -719,10 +714,11 @@ nav li:hover a {
         width: 90%;
         padding-left: 30px;
         margin-top: 15px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
     .bloc-footer-column {
         width: 288px;
-        height: 163px;
     }
 }
