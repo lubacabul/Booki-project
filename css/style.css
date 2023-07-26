@@ -373,7 +373,7 @@ nav li:hover a {
 
 .activites-card {
     width: 98%;
-    gap: 30px;
+    gap: 25px;
     flex-wrap: wrap;
 }
 
