@@ -157,8 +157,8 @@ nav li:hover a {
     width: 377px;
     height: 49px;
     border-radius: 15px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 35px;
+    margin-bottom: 35px;
 }
 
 .picto-location {
@@ -520,6 +520,9 @@ nav li:hover a {
     body {
         margin-left: 0px;
         margin-right: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .main-container{
@@ -572,6 +575,15 @@ nav li:hover a {
         margin-top: 120px;
     }
 
+    .barre-recherche{
+        display: flex;
+        justify-content: center;
+    }
+
+    .barre-recherche-taille{
+        width: 335px;
+    }
+
     .bloc-rechercher {
         display: none;
     }
@@ -602,7 +614,8 @@ nav li:hover a {
 
     .bloc-rechercher-taille {
         height: 49px;
-        width: 195px;
+        display: flex;
+        justify-content: center;
     }
 
     .filtres{
@@ -640,6 +653,11 @@ nav li:hover a {
         padding-right: 20px;
     }
 
+    .hebergements-cards{
+        display: flex;
+        justify-content: center;        
+    }
+
     .populaires {
         background-color: var(--main-bg-color);
         width: 100%;
@@ -658,6 +676,7 @@ nav li:hover a {
         display: flex;
         flex-direction: column;
         padding-bottom: 30px;
+        align-items: center;
     }
 
     .populaires-cards .card {
