@@ -701,14 +701,19 @@ nav li:hover a {
         width: 100%;
         margin-top: 30px;
         margin-bottom: 30px;
-        margin-left: 30px;
         margin-right: 30px;
         justify-content: center;
+        padding-left: 0px;
+    }
+
+    .activite-title{
+        padding-left: 30px;
     }
 
     .activites-card{
         width: 100%;
         margin-top: 15px;
+        justify-content: center ;
     }
 
     .activites-card article {
