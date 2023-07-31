@@ -220,23 +220,17 @@ nav li:hover a {
 }
 
 .boutons-filtres-bordures {
-    width: 173px;
     height: 50px;
     border: solid 2px var(--main-bg-color);
     border-radius: 25px;
     margin: 10px;
-}
-
-.boutons-filtres-familial-bordures{
-    width: 134px;
-    height: 50px;
-    border: solid 2px var(--main-bg-color);
-    border-radius: 25px;
-    margin: 10px;
+    padding: 4px 19px 4px 19px
 }
 
 .picto-filtres-style {
-    margin: 10px;
+    margin-right: 10px;
+    height: 22px;
+    width: 22px;
 }
 
 .boutons-filtres-bordures:hover {
@@ -625,6 +619,10 @@ nav li:hover a {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+    }
+
+    .boutons-filtres-bordures{
+        width: 162px;
     }
 
     .hebergements-and-populaires section {
