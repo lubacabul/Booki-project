@@ -351,6 +351,10 @@ nav li:hover a {
     margin-bottom: 5px;
 }
 
+.card-hotel-soleil {
+    display: none;
+}
+
 
 /****** Activités ***********/
 
@@ -480,6 +484,14 @@ nav li:hover a {
 
     .populaires-cards .hebergements-cards .card-subtitle {
         font-size: 13px;
+    }
+
+    .card-auberge-canebiere{
+        display: none;
+    }
+
+    .card-hotel-soleil{
+        display: flex ;
     }
 
     .activites{
