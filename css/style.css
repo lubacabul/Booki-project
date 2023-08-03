@@ -414,6 +414,11 @@ nav li:hover a {
     margin: 0;
 }
 
+.activites a{
+    text-decoration: none;
+    color: black;
+}
+
 /****** Footer ***********/
 
 .footer {
