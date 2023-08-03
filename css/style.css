@@ -323,8 +323,8 @@ nav li:hover a {
 }
 
 .populaires-cards img {
-    width: 33%;
-    height: 136px;
+    width : 123px;
+    height: 144px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
@@ -349,6 +349,12 @@ nav li:hover a {
 
 .populaires-cards .card-rating {
     margin-bottom: 5px;
+}
+
+.populaires a{
+    display: flex;
+    text-decoration: none;
+    color: black;
 }
 
 .card-hotel-soleil {
@@ -468,6 +474,7 @@ nav li:hover a {
     }
 
     .populaires-cards {
+        /*bloc des cards de la catégorie populaire*/
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -489,9 +496,22 @@ nav li:hover a {
         display: none;
     }
 
+    .populaires img{
+        width: 92px;
+        height: 146px;
+    }
+
+    .populaires a{
+        display: flex;
+        text-decoration: none;
+        color: black;
+    }
+
     .card-hotel-soleil{
         display:contents;
     }
+
+    
 
     .activites{
         width: 100%;
@@ -702,6 +722,10 @@ nav li:hover a {
 
     .populaires-cards .hebergements-cards .card-subtitle {
         font-size: 13px;
+    }
+
+    .populaires img{
+        min-width: none;
     }
 
     .card{
