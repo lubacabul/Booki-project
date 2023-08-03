@@ -731,6 +731,7 @@ nav li:hover a {
     .activites-card article {
         max-width: 315px;
         width: 90%;
+        height: 200px;
     }
 
     .activites-card-content{
@@ -739,7 +740,7 @@ nav li:hover a {
     }
 
     .activites-card img{
-        height: 200px;
+        height: 140px;
     }
 
     .footer{
