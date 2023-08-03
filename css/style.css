@@ -491,11 +491,10 @@ nav li:hover a {
     }
 
     .card-hotel-soleil{
-        display: flex ;
-        flex-direction: column;
+        display:contents;
     }
 
-     .activites{
+    .activites{
         width: 100%;
     }
 
