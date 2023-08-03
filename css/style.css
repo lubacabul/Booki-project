@@ -420,6 +420,12 @@ nav li:hover a {
     margin: 0;
 }
 
+.activites a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
 /****** Footer ***********/
 
 .footer {
@@ -755,6 +761,7 @@ nav li:hover a {
     .activites-card article {
         max-width: 315px;
         width: 90%;
+        height: 200px;
     }
 
     .activites-card-content{
@@ -763,6 +770,12 @@ nav li:hover a {
     }
 
     .activites-card img{
+        height: 140px;
+    }
+
+    .activites a{
+        max-width: 315px;
+        width: 90%;
         height: 200px;
     }
 
