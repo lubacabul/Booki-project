@@ -355,7 +355,6 @@ nav li:hover a {
     display: none;
 }
 
-
 /****** Activités ***********/
 
 .activites {
@@ -420,8 +419,8 @@ nav li:hover a {
 .footer {
     width: 90%;
     background-color: var(--main-bg-color);
-    padding-right: 100px;
     padding-left: 30px;
+    padding-right: 80px;
 }
 
 .bloc-footer-column {
@@ -515,7 +514,7 @@ nav li:hover a {
     .activites-card img{
         height: 200px;
     }
-    
+
     .footer{
         width: 90%;
         padding-left: 20px;
@@ -667,7 +666,7 @@ nav li:hover a {
 
     .hebergements-cards{
         display: flex;
-        justify-content: center;        
+        justify-content: space-evenly;        
     }
 
     .populaires {
